@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style1.css">
+    </head>
+
+    <body>
+        <header id="head">
+            <h1>Всем привет! 
+        Это мой первый сайт в котором рассказывается обо мне и о моих занятия</h1>
+        <nav>
+        <ul>
+        <a href="#p1">кто я такой? </a>
+        |
+        <a href="#p2">мои увлечения? </a>
+        |
+        <a href="#p3">что собираюсь делать? </a>
+        |
+        <a href="#p4">что я умею? </a>
+        |
+        <a href="#p5">обратная связь </a><br><br>
+        <a href="index2.html"><h3>сылка на не стилизованную страницу</h3></a>
+        </ul>
+        </nav>
+        </header>
+        <hr>
+        <main>
+            <section id="p1">
+                <h1>кто же я такой?</h1>
+                <p><small>я начинающий програмист занимающийся разработкой веб приложений</small></p>
+            </section>
+            <hr>
+            <section id="p2">
+                <h1>мои увлечения</h1>
+                <p><small><h3>люблю играть в компьютерные игры, такие как:</h3></small></p>
+                <ul>
+                    <p><small><li>Dota 2</li></p>
+                    <p><li>CS2</li></p>
+                    <p><li>RUST</li></small></p>
+                </ul>
+                <p><small><h3>все они являются многопользовательскими играми в жанре экшен</h3></small></p>
+            </section>
+            <hr>
+            <section id="p3">
+                <h1>чем планирую заниматся</h1>
+                <p><small><h3>вообще планирую стать програмистом что впринцапм не удевительно</h3></small></p>
+            </section>
+            <hr>
+            <section id="p4">
+                <h1>мои умения в разрабоке</h1>
+                <ol type="1">
+                    <li>создавать простые HTML страницы</li>
+                    <li>добавлять картинки в проекты</li>
+                    <li>создавать списки и разделы</li>
+                </ol>
+                <article><h1>что в будующем я научусь делать:</h1>
+                <ul>
+                <li>стилизовать веб страницы</li>
+                </ul>
+                <p><small>"это пока что все что приходит в голову"</small></p>
+            </article>
+            </section>
+            <section>
+                <h1>Свяжитесь со мной в случае ошибок:</h1>
+            </section>
+            <section id="p5"> 
+                <form>
+                <fieldset>
+                    <legend style=>свяжитесь со мной</legend>
+       
+    <label for="name">Имя:</label>
+    <input  id="name" name="name" placeholder="введите имя"><br><br>
+    <label for="email">Email:</label>
+    <input  id="email" name="email" placeholder="Email@mail.com"><br><br>
+        <form action="/send" method="post">
+            <label for="them">выберете тему проблемы</label>
+            <select id="them" name="them" required>
+                <option value="" disabled selected>выберете проблему</option>
+                <option value="lag">лагает сайт</option>
+                <option value="down">долгая загрузка</option>
+            </select>
+            <option value="text"></option>
+    <label for="text">Сообщение:</label><br>
+    <textarea name="text" id="text"
+    rows="5" cols="20" placeholder="опишите проблему"></textarea><br><br>
+    <button type="submit">отправить</button>
+        </form>
+</fieldset>
+        </main>
+        <hr>
+        <footer>
+            <p><b>путь в разработке веб</b></p>
+            <a  href="#head">в начало страницы</a>
+        </footer>
+</section>
+    </body>
+</html>
